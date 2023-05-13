@@ -1,0 +1,7 @@
+The original `fruit_calories` dictionary is first converted to lowercase keys using a dictionary comprehension,
+similar to the code I provided earlier. This ensures that the program is case-insensitive when looking up the calorie counts for a fruit.
+
+Then, the program prompts the user to enter a fruit input and converts it to lowercase using the `lower()` method.
+The program then checks if the fruit exists in the `fruit_calories` dictionary using the lowercase version of the input,
+and outputs the corresponding calorie count if it does.
+If the fruit doesn't exist in the dictionary, the program outputs an error message.

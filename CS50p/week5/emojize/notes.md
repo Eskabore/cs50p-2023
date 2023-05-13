@@ -1,0 +1,3 @@
+The `emojize_text()` function takes a string as input and first replaces any aliases with their corresponding codes using the `emojize()` function with the `language='alias'` parameter. It then replaces the codes with their corresponding emojis using the `emojize()` function without any additional parameters. The resulting emojized text is returned.
+
+In the `if __name__ == '__main__':` block, the program prompts the user for input, emojizes the input using the `emojize_text()` function, and prints the resulting emojized text.

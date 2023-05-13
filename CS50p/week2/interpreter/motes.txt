@@ -1,0 +1,9 @@
+The calculate function takes an expression as input, splits it into its constituent parts, performs the appropriate arithmetic operation, formats the result
+as a float with one decimal place, and prints it to the console.
+The main program prompts the user for an expression, passes it to the calculate function, and outputs the result.
+
+In the [optimized] implementation, I have:
+
+- Simplified the conversion of x and y to integers by using a tuple instead of two separate assignments
+- Used a dictionary to map the operator to the appropriate function, which eliminates the need for an if-else chain
+- Used the mapped function to perform the arithmetic operation, which is more concise and easier to read

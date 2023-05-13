@@ -1,0 +1,4 @@
+his code first checks if the suffix is present in the input string.
+If it is, it splits the string into the time and suffix, converts the hours and minutes to integers, and adjusts the hours if the suffix is "p.m.".
+If the suffix is not present, the code splits the string into hours and minutes and converts them to integers.
+Finally, the function returns the total number of hours as a float.

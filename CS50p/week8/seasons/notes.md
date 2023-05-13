@@ -1,0 +1,3 @@
+The `get_age_in_minutes` function calculates the age of the user in minutes based on their birthdate and the current datetime. The `print_age_in_words` function takes the age in minutes and prints it out in English words. The `main` function prompts the user for their birthdate and calls the other two functions to calculate and print their age in minutes.
+
+The `test_get_age_in_minutes` function tests the `get_age_in_minutes` function by comparing its output to the expected age in minutes. The `test_print_age_in_words` function tests the `print_age_in_words` function by checking its output for a few different input values.

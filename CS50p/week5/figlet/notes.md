@@ -1,0 +1,1 @@
+This script expects zero or two command-line arguments, prompts the user for a string of text, and outputs the text in the desired font. If the user provides two command-line arguments, the first should be -f or --font, and the second should be the name of the font. If the arguments are incorrect, the program exits via sys.exit with an error message.

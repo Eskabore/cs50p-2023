@@ -1,0 +1,5 @@
+The `menu` dictionary contains the names and prices of the items on the menu. The `display_total_cost` function takes a list of items and calculates the total cost by summing up the prices of the items in the menu dictionary. It then prints the total cost with a dollar sign prefix and formatted to two decimal places.
+
+The `main` function initializes an empty list of items and prompts the user for input until they press `control-d`. It strips any leading or trailing whitespace from the input and titlecases it. If the input is not a valid item in the menu, it is ignored. Otherwise, the item is added to the list of items and the total cost is displayed using the `display_total_cost` function.
+
+To run this program, save it in a file called `taqueria.py` and run it from the command line with `python taqueria.py`.

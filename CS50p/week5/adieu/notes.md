@@ -1,0 +1,1 @@
+This version of the code uses the join method of the inflect module to create a string of the list of names separated by commas and the word "and" before the last name. The len function is used to check how many names were entered, and different farewell messages are printed depending on the number of names.

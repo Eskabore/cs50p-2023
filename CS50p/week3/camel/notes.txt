@@ -1,0 +1,5 @@
+The camel_to_snake() function takes a string in camel case as input and returns the corresponding string in snake case.
+It does this by iterating over each character in the string and checking whether it is a capital letter.
+If it is, it adds an underscore followed by the lowercase version of the letter to the output string; otherwise, it simply adds the character as-is.
+
+The main() function prompts the user for input, calls camel_to_snake() to convert the input to snake case, and then outputs the result.

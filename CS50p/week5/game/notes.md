@@ -1,0 +1,11 @@
+This program is a simple guessing game where the user tries to guess a randomly generated integer between 1 and a given maximum value. The `get_positive_integer` function is used to get a positive integer input from the user, and the `play_guessing_game` function generates a random number and prompts the user to guess the number until they guess correctly. The `main` function gets the maximum value of the range from the user and calls `play_guessing_game` to play the game. The `random` module is used to generate random numbers, and the `while` loop is used to repeatedly prompt the user until they enter a valid input or guess the correct number.
+
+1.  `import random`: This imports the `random` module, which contains functions for generating random numbers.
+    
+2.  `get_positive_integer(prompt)`: This function takes a string `prompt` as an argument and repeatedly prompts the user to enter a positive integer. It uses a `while` loop to keep prompting the user until they enter a valid input. It returns the integer value of the input if it is a positive integer, and prints an error message and continues the loop otherwise.
+    
+3.  `play_guessing_game(n)`: This function takes an integer `n` as an argument and generates a random integer between 1 and `n`. It then prompts the user to guess the number and uses a `while` loop to keep prompting the user until they guess the correct number. If the user's guess is too small, the function prints a message telling them it's too small. If the guess is too large, the function prints a message telling them it's too large. If the guess is correct, the function prints a message telling the user they guessed correctly and exits the loop.
+    
+4.  `main()`: This function is the main function that runs the program. It calls `get_positive_integer` to get the maximum value of the range from the user, and then calls `play_guessing_game` to play the game.
+    
+5.  `if __name__ == "__main__":`: This is a conditional statement that checks if the script is being run as the main program (as opposed to being imported as a module). If it is being run as the main program, it calls the `main()` function.
